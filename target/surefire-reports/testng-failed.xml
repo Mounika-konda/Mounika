@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="pagescripts.Amazinlogin">
+        <methods>
+          <include name="chromebrowser"/>
+          <include name="afterTCExecution"/>
+          <include name="closeBrowser"/>
+          <include name="amazonsignin"/>
+          <include name="startReport"/>
+          <include name="beforeTCExecution"/>
+        </methods>
+      </class> <!-- pagescripts.Amazinlogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
