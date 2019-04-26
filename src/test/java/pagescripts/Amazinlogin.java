@@ -27,7 +27,9 @@ public class Amazinlogin extends Demoone
 		
 		Amazsignin.enterUsername(data1, data2);
 		Thread.sleep(2000);
-		
+		System.out.println("address1");
+				System.out.println("address3");
+
 
 
 		
