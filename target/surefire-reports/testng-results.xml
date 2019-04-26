@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23287" started-at="2019-04-22T12:44:43Z" finished-at="2019-04-22T12:45:06Z">
+  <suite name="Suite" duration-ms="41396" started-at="2019-04-26T12:33:35Z" finished-at="2019-04-26T12:34:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23287" started-at="2019-04-22T12:44:43Z" finished-at="2019-04-22T12:45:06Z">
+    <test name="Test" duration-ms="41396" started-at="2019-04-26T12:33:35Z" finished-at="2019-04-26T12:34:16Z">
       <class name="pagescripts.Amazinlogin">
-        <test-method status="PASS" signature="chromebrowser(java.lang.String)[pri:0, instance:pagescripts.Amazinlogin@13969fbe]" name="chromebrowser" is-config="true" duration-ms="6126" started-at="2019-04-22T18:14:37Z" finished-at="2019-04-22T18:14:43Z">
+        <test-method status="PASS" signature="chromebrowser(java.lang.String)[pri:0, instance:pagescripts.Amazinlogin@6cd8737]" name="chromebrowser" is-config="true" duration-ms="5640" started-at="2019-04-26T18:03:29Z" finished-at="2019-04-26T18:03:35Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromebrowser -->
-        <test-method status="PASS" signature="startReport()[pri:0, instance:pagescripts.Amazinlogin@13969fbe]" name="startReport" is-config="true" duration-ms="191" started-at="2019-04-22T18:14:43Z" finished-at="2019-04-22T18:14:43Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:pagescripts.Amazinlogin@6cd8737]" name="startReport" is-config="true" duration-ms="151" started-at="2019-04-26T18:03:35Z" finished-at="2019-04-26T18:03:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:pagescripts.Amazinlogin@13969fbe]" name="beforeTCExecution" is-config="true" duration-ms="6" started-at="2019-04-22T18:14:43Z" finished-at="2019-04-22T18:14:43Z">
+        <test-method status="PASS" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:pagescripts.Amazinlogin@6cd8737]" name="beforeTCExecution" is-config="true" duration-ms="6" started-at="2019-04-26T18:03:35Z" finished-at="2019-04-26T18:03:35Z">
           <params>
             <param index="0">
               <value>
@@ -33,33 +33,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTCExecution -->
-        <test-method status="FAIL" signature="amazonsignin()[pri:0, instance:pagescripts.Amazinlogin@13969fbe]" name="amazonsignin" duration-ms="18820" started-at="2019-04-22T18:14:43Z" finished-at="2019-04-22T18:15:02Z">
+        <test-method status="FAIL" signature="amazonsignin()[pri:0, instance:pagescripts.Amazinlogin@6cd8737]" name="amazonsignin" duration-ms="37130" started-at="2019-04-26T18:03:35Z" finished-at="2019-04-26T18:04:12Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: cannot determine loading status
-from unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=73.0.3683.103)
+              <![CDATA[chrome not reachable
+  (Session info: chrome=74.0.3729.108)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-O1MODL2', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'DESKTOP-O1MODL2', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Mounika\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: cfd1f7512b2db88a98e65e8b50cbe807]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Mounika\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.108, webStorageEnabled: true}
+Session ID: 4b43c8a277747c8f9f9bdf3b83ad1631
+*** Element info: {Using=xpath, value=//a[@id='nav-link-yourAccount']/span}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=73.0.3683.103)
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.108)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-O1MODL2', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'DESKTOP-O1MODL2', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Mounika\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: cfd1f7512b2db88a98e65e8b50cbe807
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Mounika\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.108, webStorageEnabled: true}
+Session ID: 4b43c8a277747c8f9f9bdf3b83ad1631
+*** Element info: {Using=xpath, value=//a[@id='nav-link-yourAccount']/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -72,8 +70,19 @@ Session ID: cfd1f7512b2db88a98e65e8b50cbe807
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at pagescripts.Amazinlogin.amazonsignin(Amazinlogin.java:22)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getCoordinates(Unknown Source)
+	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:66)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:643)
+	at pageobjects.Amazsignin.signinlinkmove(Amazsignin.java:40)
+	at pagescripts.Amazinlogin.amazonsignin(Amazinlogin.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,36 +117,36 @@ Session ID: cfd1f7512b2db88a98e65e8b50cbe807
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonsignin -->
-        <test-method status="FAIL" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:pagescripts.Amazinlogin@13969fbe]" name="afterTCExecution" is-config="true" duration-ms="4052" started-at="2019-04-22T18:15:02Z" finished-at="2019-04-22T18:15:06Z">
+        <test-method status="FAIL" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:pagescripts.Amazinlogin@6cd8737]" name="afterTCExecution" is-config="true" duration-ms="4078" started-at="2019-04-26T18:04:12Z" finished-at="2019-04-26T18:04:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=amazonsignin status=FAILURE method=Amazinlogin.amazonsignin()[pri:0, instance:pagescripts.Amazinlogin@13969fbe] output={null}]]]>
+                <![CDATA[[TestResult name=amazonsignin status=FAILURE method=Amazinlogin.amazonsignin()[pri:0, instance:pagescripts.Amazinlogin@6cd8737] output={null}]]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
-  (Session info: chrome=73.0.3683.103)
+  (Session info: chrome=74.0.3729.108)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-O1MODL2', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'DESKTOP-O1MODL2', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Mounika\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: cfd1f7512b2db88a98e65e8b50cbe807]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Mounika\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.108, webStorageEnabled: true}
+Session ID: 4b43c8a277747c8f9f9bdf3b83ad1631]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=73.0.3683.103)
+  (Session info: chrome=74.0.3729.108)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-O1MODL2', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'DESKTOP-O1MODL2', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Mounika\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: cfd1f7512b2db88a98e65e8b50cbe807
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Mounika\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.108, webStorageEnabled: true}
+Session ID: 4b43c8a277747c8f9f9bdf3b83ad1631
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -190,7 +199,7 @@ Session ID: cfd1f7512b2db88a98e65e8b50cbe807
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTCExecution -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:pagescripts.Amazinlogin@13969fbe]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-04-22T18:15:06Z" finished-at="2019-04-22T18:15:06Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:pagescripts.Amazinlogin@6cd8737]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-04-26T18:04:17Z" finished-at="2019-04-26T18:04:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
