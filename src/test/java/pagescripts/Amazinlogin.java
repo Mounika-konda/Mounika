@@ -33,12 +33,31 @@ public class Amazinlogin extends Demoone
 
 
 		
-		
-		
-	
 	}
 	
+public void newsignin() throws Exception
 	
+	{
+		
+		propertiesReusables pr=new propertiesReusables("C:\\Users\\Mounika\\eclipse-workspace\\migration\\config2.properties");
+		
+		String url1=pr.getPropertyValue("url");
+		
+		driver.get(url1);
+		Thread.sleep(2000);
+		String data1=pr.getPropertyValue("email");
+		String data2=pr.getPropertyValue("Password");
+		Amazsignin.signinlinkmove();
+		
+		Amazsignin.enterUsername(data1, data2);
+		Thread.sleep(2000);
+		System.out.println("address1");
+				System.out.println("address3");
+
+
+
+		
+	}
 	
 	
 	
